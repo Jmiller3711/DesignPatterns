@@ -1,0 +1,34 @@
+﻿There are three types of Design Patterns:
+	Creational - Creational patterns concern the process of object creation
+	Structural - Structural patterns deal with the composition of classes or objects
+	Behavioral - Behavioral patterns characterize the ways in which classes or objects interact and distribute responsibility
+
+Design Patterns:
+	Creational - classe(s): Factory Method
+		[-] Abstract Factory (aka "Kit")
+		[-] Builder
+		[] Prototype
+		[] Singleton
+	Structural - classe(s): Adapter
+		[-] Adapter (aka "Wrapper")
+		[] Bridge
+		[] Composite
+		[-] Decorator (aka "Wrapper")
+		[] Facade
+		[] Flyweight
+		[-] Proxy (aka "Surrogate")
+	Behavioral - classe(s): Interpreter, Template Method
+		[] Chain of Responsibility
+		[] Command
+		[] Iterator
+		[] Mediator
+		[] Memento
+		[-] Observer
+		[] State
+		[] Strategy
+		[] Visitor
+
+
+Good Resources on Design Patterns:
+-"Design Patterns Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, and John Vissides
+-https://refactoring.guru/design-patterns
