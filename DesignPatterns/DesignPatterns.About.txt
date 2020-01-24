@@ -3,34 +3,38 @@
 	Structural - Structural patterns deal with the composition of classes or objects
 	Behavioral - Behavioral patterns characterize the ways in which classes or objects interact and distribute responsibility
 
+Frequency of Use: [*****]
+
 Design Patterns:
-	Creational - classe(s): Factory Method
-		[-] Factory Method
-		[-] Abstract Factory (aka "Kit")
-		[-] Builder
-		[] Prototype
-		[] Singleton
-	Structural - classe(s): Adapter
-		[-] Adapter (aka "Wrapper")
-		[] Bridge
-		[] Composite
-		[-] Decorator (aka "Wrapper")
-		[-] Facade
-		[] Flyweight
-		[-] Proxy (aka "Surrogate")
-	Behavioral - classe(s): Interpreter, Template Method
-		[-] Chain of Responsibility
-		[] Command
-		[] Iterator
-		[] Mediator
-		[] Memento
-		[-] Observer
-		[] State
-		[] Strategy
-		[] Visitor
+	Creational
+		[-] Abstract Factory (aka "Kit") - Creates an instance of several families of classes - [*****]
+		[-] Builder - Separates object construction from its representation - [**]
+		[-] Factory Method - Creates an instance of several derived classes - [*****]
+		[] Prototype - A fully initialized instance to be copied or cloned - [***]
+		[] Singleton - A class of which only a single instance can exist - [****]
+	Structural
+		[-] Adapter (aka "Wrapper") - Match interfaces of different classes - [****]
+		[] Bridge - Separates an object’s interface from its implementation - [***]
+		[] Composite - A tree structure of simple and composite objects - [****]
+		[-] Decorator (aka "Wrapper") - Add responsibilities to objects dynamically - [***]
+		[-] Facade - A single class that represents an entire subsystem - [*****]
+		[] Flyweight - A fine-grained instance used for efficient sharing - [*]
+		[-] Proxy (aka "Surrogate") - An object representing another object - [****]
+	Behavioral
+		[-] Chain of Responsibility - A way of passing a request between a chain of objects - [**]
+		[] Command - Encapsulate a command request as an object - [****]
+		[] Interpreter - A way to include language elements in a program - [*]
+		[] Iterator - Sequentially access the elements of a collection - [*****]
+		[] Mediator - Defines simplified communication between classes - [**]
+		[] Memento - Capture and restore an object's internal state - [*]
+		[-] Observer - A way of notifying change to a number of classes - [*****]
+		[] State - Alter an object's behavior when its state changes - [***]
+		[] Strategy - Encapsulates an algorithm inside a class - [****]
+		[] Template Method - Defer the exact steps of an algorithm to a subclass - Method [***]
+		[] Visitor - Defines a new operation to a class without change - [*]
 
 
 Good Resources on Design Patterns:
+-https://www.dofactory.com/net/design-patterns Based on the book mentioned below by The Gang of Four
 -"Design Patterns Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, and John Vissides
 -https://refactoring.guru/design-patterns
--https://www.dofactory.com/net/design-patterns
