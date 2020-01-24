@@ -33,3 +33,4 @@ Design Patterns:
 Good Resources on Design Patterns:
 -"Design Patterns Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, and John Vissides
 -https://refactoring.guru/design-patterns
+-https://www.dofactory.com/net/design-patterns
