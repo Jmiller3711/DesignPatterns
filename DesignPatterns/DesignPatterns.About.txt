@@ -5,6 +5,7 @@
 
 Design Patterns:
 	Creational - classe(s): Factory Method
+		[-] Factory Method
 		[-] Abstract Factory (aka "Kit")
 		[-] Builder
 		[] Prototype
@@ -14,11 +15,11 @@ Design Patterns:
 		[] Bridge
 		[] Composite
 		[-] Decorator (aka "Wrapper")
-		[] Facade
+		[-] Facade
 		[] Flyweight
 		[-] Proxy (aka "Surrogate")
 	Behavioral - classe(s): Interpreter, Template Method
-		[] Chain of Responsibility
+		[-] Chain of Responsibility
 		[] Command
 		[] Iterator
 		[] Mediator
